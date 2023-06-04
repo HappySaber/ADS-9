@@ -9,7 +9,7 @@ class BST {
     T value;
     Node *right;
     Node* left;
-    int count;   
+    int count;
     explicit Node(T value)
         : value(value), count(1), left(nullptr), right(nullptr) {}
   };
